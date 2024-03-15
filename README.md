@@ -29,7 +29,9 @@ To run the chatbot application locally:
 
 ## Pulling Changes from the Repository.
 To pull the latest changes from the repository:
+
 1.Navigate to the directory where you cloned the repository.
+
 2.Run the following command to fetch and merge the latest changes:
  `git pull origin master`
 
