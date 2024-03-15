@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot</title>
+  <h1>Welcome to Medha Tech</h1>
+  <link rel="stylesheet" href="/static/styles.css">
+  
+
+</head>
+<body>
+
+<div class="chatbox-container">
+  <div class="chatbox">
+    <div class="chatbox-heading">
+        <img src="/static/assets/projectImage.png" alt="Chatbot Image" width="45" height="45">
+      <h1>Virtual Assistant</h1>
+      <div class="refresh-button-container">
+        <div class="refresh-button">&#8634;</div>
+      </div>
+      <div class="close-button-container" >
+        <div class="close-button">&#10006;</div>
+      </div>
+    </div>
+    <div class="chat-messages" id="chatMessages"></div>
+    <div class="input-box">
+        
+      <input type="text" id="userMessage" name="message" class="user-input" placeholder="Type your message...">
+      <button id="send-button" class="send-button" >&#11166;</button>
+      <div id="chatMessages"></div>
+    </div>
+    <div id="currentDateTime" class="timestamp"></div>
+  </div>
+</div>
+<script src="/static/script.js"></script>
+
+<img src="/static/assets/messengerIcon4.jpg" alt="Messenger Icon" class="messenger-icon" ">
+
+
+</body>
+</html>
+
