@@ -11,15 +11,15 @@ This repository contains a Python application that implements a simple chatbot u
 To run the chatbot application locally:
 1. Make sure you have python installed in your system.
 2. Install the required Python packages by running:
-   `pip install flask spacy fuzzywuzzy`.
-   `python -m spacy download en_core_web_sm`
+   - `pip install flask spacy fuzzywuzzy`.
+   - `python -m spacy download en_core_web_sm`
    This will install Flask, spaCy, and fuzzywuzzy packages and download the English language model for spaCy.
-<p>3.Clone the repository to your local machine:</p>
- `git clone https://github.com/Ramakrishna314/PythonExample.git`.
+3.Clone the repository to your local machine:
+ - `git clone https://github.com/Ramakrishna314/PythonExample.git`.
 4.Navigate to the project directory:
-  `cd PythonExample`
+  - `cd PythonExample`
 5.Run the following command to start the Flask server:
-   `python chatbot.py`
+  - `python chatbot.py`
 6.Open a web browser and go to `http://127.0.0.1:5000` to access the chatbot interface.
 
 ## Pulling Changes from the Repository.
