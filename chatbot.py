@@ -118,7 +118,9 @@ def generate_response(intent, user_input):
     return "I'm sorry, I didn't understand that. Can you please rephrase your word?", intent
 
 # Routes
-@app.route('/')
+@app.route('/favicon.ico')
+def favicon():
+    return '', 404
 
 def index():
     return send_from_directory('.', 'index.html')
