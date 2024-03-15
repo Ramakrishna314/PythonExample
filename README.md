@@ -14,7 +14,7 @@ To run the chatbot application locally:
    `pip install flask spacy fuzzywuzzy`.
    `python -m spacy download en_core_web_sm`
    This will install Flask, spaCy, and fuzzywuzzy packages and download the English language model for spaCy.
-3.Clone the repository to your local machine:
+<p>3.Clone the repository to your local machine:</p>
  `git clone https://github.com/Ramakrishna314/PythonExample.git`.
 4.Navigate to the project directory:
   `cd PythonExample`
